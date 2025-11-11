@@ -14,6 +14,6 @@
 @mmp_ravounous_flame_accord = 0.15
 @mmp_ravounous_flame_telepath_bonus = 0.1
 
-@mmp_twinning_songs_accord = -0.1
+@mmp_twinning_songs_accord = 0.1
 @mmp_twinning_songs_accord_2 = -15
 @mmp_twinning_songs_telepath_bonus = 0.05
