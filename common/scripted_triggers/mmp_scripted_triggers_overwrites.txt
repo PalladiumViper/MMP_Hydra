@@ -41,4 +41,8 @@ has_contacted_all_minor_patrons = {
 	has_contact_with_patron_or_no_relation = {
 		PATRON = mmp_the_ravounous_flame
 	}
+    #BY MAXIUNDMICKY
+    has_contact_with_patron_or_no_relation = {
+        PATRON = mmp_the_twinning_songs
+    }
 }

@@ -22,4 +22,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/patrons/mmp_the_ravounous_flame.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 	}
+
+	spriteType = {
+		name = "GFX_mmp_the_twinning_songs_icon"
+		texturefile = "gfx/interface/icons/patrons/mmp_the_twinning_songs.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
 }

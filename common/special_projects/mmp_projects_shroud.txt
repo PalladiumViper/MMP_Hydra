@@ -109,3 +109,32 @@ special_project = {
 		EVENT_ID = MMP_patron.45
 	}
 }
+
+#BY MAXIUNDMICKY
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_psionics
+        KEY = "MMP_THE_TWINNING_SONGS_FC_PROJECT"
+        EVENT_ID = MMP_patron.55
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_shroud_psionic_hive_mind
+        KEY = "MMP_THE_TWINNING_SONGS_FC_PROJECT_HIVE"
+        EVENT_ID = MMP_patron.55
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_machine_sapience
+        KEY = "MMP_THE_TWINNING_SONGS_FC_PROJECT_ROBOT"
+        EVENT_ID = MMP_patron.55
+    }
+}

@@ -193,5 +193,18 @@ shroud_touched_patron_first_contact = {
 			}
 			country_event = { id = MMP_patron.40 }
 		}
+        #BY MAXIUNDMICKY
+        1 = {
+            modifier = {
+                factor = 0
+                OR = {
+                    has_contact_with_patron_or_no_relation = {
+                        PATRON = mmp_the_twinning_songs
+                    }
+                    has_contacted_all_major_patrons = no
+                }
+            }
+            country_event = { id = MMP_patron.50 }
+        }
 	}
 }

@@ -178,6 +178,41 @@ country_event = {
 	}
 }
 
+# The Twinning Songs - Duality Embodied
+country_event = {
+    id = shroud.45045
+    base = shroud.3
+
+    title = shroud.45045.title
+    desc_clear = yes
+    desc = shroud.45045.desc
+
+    trigger = {
+        NOR = {
+            has_country_flag = shroud_45045_happened
+            has_country_flag = forging_our_own_path
+        }
+        has_patron_relation = {
+            patron = mmp_the_twinning_songs
+            contact = completed
+        }
+        OR = {
+            is_in_domain = the_cradle_of_souls
+            is_in_domain = the_instrument_of_desire
+        }
+    }
+
+    immediate = {
+        set_country_flag = shroud_45045_happened
+    }
+
+    option_clear = yes
+    option = {
+        name = shroud.45045.a
+        custom_tooltip = shroud.45045.a.tt
+    }
+}
+
 #######################
 #
 #######################
@@ -238,4 +273,20 @@ inline_script = {
 	script = shroud/minor_patron_first_contact_end_event
 	EVENT_ID = MMP_patron.45
 	PATRON_TYPE = mmp_the_ravounous_flame
+}
+
+#BY MAXIUNDMICKY
+# The Twinning Songs
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_start_event
+    EVENT_ID = MMP_patron.50
+    SPECIAL_PROJECT_KEY = "MMP_THE_TWINNING_SONGS_FC_PROJECT"
+    PATRON_TYPE = mmp_the_twinning_songs
+}
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_end_event
+    EVENT_ID = MMP_patron.55
+    PATRON_TYPE = mmp_the_twinning_songs
 }

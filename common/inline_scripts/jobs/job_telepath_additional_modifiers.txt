@@ -313,7 +313,7 @@ triggered_country_modifier = {
 		exists = owner
 		owner = { has_country_flag = mmp_spireless_tower_accord }
 	}
-	country_power_projection_produces_mult = @mmp_spireless_tower_accord
+	country_power_projection_produces_mult = @mmp_spireless_tower_telepath_bonus
 }
 
 triggered_country_modifier = {
@@ -321,7 +321,7 @@ triggered_country_modifier = {
 		exists = owner
 		owner = { has_country_flag = mmp_hollow_maw_accord }
 	}
-	country_war_exhaustion_mult = @mmp_hollow_maw_accord
+	country_war_exhaustion_mult = @mmp_hollow_maw_telepath_bonus
 }
 
 triggered_planet_modifier = {
@@ -329,7 +329,7 @@ triggered_planet_modifier = {
 		exists = owner
 		owner = { has_country_flag = mmp_silent_renegade_accord }
 	}
-	planet_orbital_bombardment_damage = @mmp_silent_renegade_accord
+	planet_orbital_bombardment_damage = @mmp_silent_renegade_telepath_bonus
 }
 
 triggered_planet_modifier = {
@@ -337,5 +337,15 @@ triggered_planet_modifier = {
 		exists = owner
 		owner = { has_country_flag = mmp_ravounous_flame_accord }
 	}
-	planet_jobs_energy_produces_mult = @mmp_ravounous_flame_accord
+	planet_jobs_energy_produces_mult = @mmp_ravounous_flame_telepath_bonus
+}
+
+# By MaxiundMicky
+
+triggered_country_modifier = {
+    potential = {
+        exists = owner
+        owner = { has_country_flag = mmp_twinning_song_accord}
+    }
+    planet_jobs_unity_produces_mult = @mmp_twinning_songs_telepath_bonus
 }

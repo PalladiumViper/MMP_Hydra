@@ -36,6 +36,16 @@
  mmp_the_ravounous_flame_desc: "For the timeless, does time go by?"
  code_name_mmp_flame: "Immortal Force"
 
+ ### BY MAXIUNDMICKY - Twinning Songs
+ mmp_the_twinning_songs: "Twinning Songs"
+ mmp_the_twinning_songs_article: "the $mmp_the_twinning_songs$"
+ mmp_the_twinning_songs_article_cap: "The $mmp_the_twinning_songs$"
+ mmp_the_twinning_songs_color: "§L$mmp_the_twinning_songs$§!"
+ mmp_the_twinning_songs_color_article: "the §H$mmp_the_twinning_songs$§!"
+ mmp_the_twinning_songs_color_article_cap: "The §H$mmp_the_twinning_songs$§!"
+ mmp_the_twinning_songs_desc: "One melody, yet two songs - Echos woven together."
+ code_name_mmp_songs: "Interwoven Voices"
+
  edict_mmp_will_of_glory: "Will of Glory"
  edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
  
@@ -48,10 +58,9 @@
  edict_mmp_will_of_eternity: "Will of Eternity"
  edict_mmp_will_of_eternity_desc: "$mmp_the_ravounous_flame_color_article_cap$ will last forever."
 
- #MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nChaotic noise yields to an oppressive darkness. We feel our intentions scrutinized, studied, judged.\n\nThe heavy expectation of order, unchallenged and immutable, peers deep within us. The §H$code_name_throne$§! judges our intent.\n\nIts gaze having passed over us, the darkness recedes. The infectious scrutiny compels us to fall in line."
- #MMP_patron.15.title: "$the_vacant_throne_article_cap$ Emerges"
- #MMP_patron.15.desc: "We have knelt in the presence of the §H$code_name_throne$§!.\n\nOur minds were scrutinized with the cold indifference of uncompromising authority, fixing us in place as we were judged.\n\nThe oppressive vacuum of $the_vacant_throne_color_article$ offers no mercy - nor suffering. It expects only order and certainty, imposing it where it is found lacking.\n\nWe now carry this weight with us."
- #MMP_patron.15.a: "Judgement is ever present."
+ ###BY MAXIUNDMICKY - Twinning Songs
+ edict_mmp_will_of_duality: "Will of Duality"
+ edict_mmp_will_of_duality_desc: "$mmp_the_twinning_songs_color_article_cap$ bring us together."
 
  # The Spireless Tower
  MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nThe chaos of the Shroud suddenly sharpen to a glorious light. We find ourselves compelled to respect the presence of this place.\n\nThe grandour does betray the danger of this place. The §H$code_name_mmp_tower$§! is the one to lay claim to this domain.\n\nIts expectations pierces us, setting us up for what is ahead."
@@ -76,69 +85,90 @@
  MMP_patron.45.title: "$mmp_the_ravounous_flame_article_cap$ Emerges"
  MMP_patron.45.desc: "The trail has led to the §H$code_name_mmp_tower$§!'s lair.\n\nIt blazes gloriously, blasting away our fragility with its shine. It has noticed us, but only now that we braved its trial is it ready to welcome us in its embrace. Raw power flits around in the shroud as it curls around us.\n\nThe raw power burns away at our essence until only our core remains, the very essence of what we are.\n\nBut $mmp_the_spireless_tower_color_article$ is not cruel. It has hardened us for hardships to come."
  MMP_patron.45.a: "Our weaknesses have been burned away."
- 
+
+ #BY MAXIUNDMICKY
+ # The Twinning Songs
+ MMP_patron.50.desc: "[This.GetMinorPatronInstrumentCradleIntro]\n\nEthereal melodies drain us of any sense of reality. In a trance, we listen.\n\nThe §H$code_name_mmp_songs$§! beckons us for just a moment, before the melodies around us disappear into deafening silence.\n\nYet the song will not leave our mind, and we may follow the notes laid out for us."
+ MMP_patron.55.title: "$mmp_the_twinning_songs_article_cap$ Emerges"
+ MMP_patron.55.desc: "Our attempts to replicate the melody paled in comparison. The §H$code_name_mmp_songs$§! drowns our music as it embraces our futile replication.\n\nIn unison of voices of melodies, it guides our hands, our instruments producing sounds we never dreamed of creating. Our voices singing with a language not our own. The orchestra of our ethereal offering the symbol of its embrace of our insignificance.\n\nBut $mmp_the_twinning_songs_article$ will conduct our minds to play and sing until our souls burn bright. The universe will be our stage."
+ MMP_patron.55.a: "Our song will pierce through the void."
+
 # Essence
 
  # The Spireless Tower
- #shroud.25025.title: "Chaos into Order"
  shroud.25025.title: "The Shining Path"
- #shroud.25025.desc: "The Shroud's seething ebullition pulsates before us. An intractable presence approaches; it is $the_vacant_throne_color_article$.\n\nAs it nears, vast and knotted coils of raw psionic energy are suddenly tamed. The morass becomes clearer and more comprehensible. Colors bloom with newfound definition. Symmetry, logic, and structure are imposed.\n\nSomething forms within the deepest recess of our minds: a far-reaching desire for order."
  shroud.25025.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
- #shroud.25025.a: "Shun chaos. Embrace order."
  shroud.25025.a: "We must follow the guiding light."
- #shroud.25025.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
- shroud.25025.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ shroud.25025.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_glory$"
  
  # The Empty Maw
- shroud.40040.title: "The Shining Path"
- shroud.40040.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
- shroud.40040.a: "We must follow the guiding light."
- shroud.40040.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ shroud.40040.title: "The Bottomless Maelstrom"
+ shroud.40040.desc: "Before us the chaos of the shroud ravages into a lightless vortex, and from its center drawing in everything is $mmp_the_hollow_maw_color_article$.\n\nAs the shroud rushes towards it, the psionic energy around us drag us closer, until we find ourselves in the center of the maelstrom.\n\nWithin us our hunger grows. We need only to follow the call of the ravaging void."
+ shroud.40040.a: "We must navigate the vortex of void."
+ shroud.40040.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_the_void$"
  
  # The Silent Renegade
- shroud.35035.title: "The Shining Path"
- shroud.35035.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
- shroud.35035.a: "We must follow the guiding light."
- shroud.35035.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ shroud.35035.title: "The Deafening Silence"
+ shroud.35035.desc: "Before us the chaos of the shroud subsides into a piercing silence, and from the nothingness stares $mmp_the_silent_renegade_color_article$.\n\nWith our presence feeling nonexistent, the psionic energy around us dissolve our material forms as our spirits find clarity in the darkness. No presence, sound, or sight will pierce the veil.\n\nWithin us we find the urge to erase all trace of ourselves, and walk through the universe unseen. We need only to wear the veil offered to us."
+ shroud.35035.a: "We must be more quiet than silence itself."
+ shroud.35035.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_hiding$"
  
- # The Persisten Flame
- shroud.30030.title: "The Shining Path"
- shroud.30030.desc: "Before us the chaos of the shroud coalesces into sharp clarity, and in the center stands the $mmp_the_spireless_tower_color_article$.\n\nAs it turns its watchful gaze towards us, the psionic energy around us harden as well as chaos subsides. Only sharp clear edges remain in all their glory.\n\nWithin us our confidence grows: we stand here at the precipe of greatness. We need only to follow the path."
- shroud.30030.a: "We must follow the guiding light."
- shroud.30030.a.tt: "§Y$unlock_edict_tt$§!$edict_will_of_order$"
+ # The Persistent Flame
+ shroud.30030.title: "The Unending Fire"
+ shroud.30030.desc: "Before us is a fire burning with a fury we struggle to comprehend, and through the glow of its eternal shine $mmp_the_ravounous_flame_color_article$.\n\nAs its embers singe our minds, the psionic energy around us lighten up a path through the flames. All around us, the fire licking at our souls. Yet its warmth is comforting.\n\n We need only to be illuminated by its glow."
+ shroud.30030.a: "Our light must burn forevermore."
+ shroud.30030.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_eternity$"
+
+ #BY MAXIUNDMICKY
+ # The Twinning Songs
+ shroud.45045.title: "The Ethereal Orchestra"
+ shroud.45045.desc: "Before us the chaos of the shroud coalesces into an entrancing melody, and the haunting orchestra of the shroud is conducted by $mmp_the_twinning_songs_color_article$.\n\nAs it turns its guiding hand towards us, the psionic energy around us beckon our voices to join into the song. Only ethereal melodies remain, we are the instruments of its song.\n\nWe need only to follow the guidance it shows us."
+ shroud.45045.a: "Our crescendo must echo through us all."
+ shroud.45045.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_duality$"
  
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT: "Commune with the $code_name_mmp_tower$"
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_tower_fc_project_desc_end$"
- MMP_THE_SPIRELESS_TOWER_FC_PROJECT_HIVE: "$THE_SPIRELESS_TOWER_FC_PROJECT$"
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT_HIVE: "$MMP_THE_SPIRELESS_TOWER_FC_PROJECT$"
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_tower_fc_project_desc_end$"
- MMP_THE_SPIRELESS_TOWER_FC_PROJECT_ROBOT: "$THE_SPIRELESS_TOWER_FC_PROJECT$"
+ MMP_THE_SPIRELESS_TOWER_FC_PROJECT_ROBOT: "$MMP_THE_SPIRELESS_TOWER_FC_PROJECT$"
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_tower_fc_project_desc_end$"
  mmp_tower_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_tower$§!."
  
  MMP_THE_HOLLOW_MAW_FC_PROJECT: "Commune with the $code_name_mmp_maw$"
  MMP_THE_HOLLOW_MAW_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_maw_fc_project_desc_end$"
- MMP_THE_HOLLOW_MAW_FC_PROJECT_HIVE: "$THE_HOLLOW_MAW_FC_PROJECT$"
+ MMP_THE_HOLLOW_MAW_FC_PROJECT_HIVE: "$MMP_THE_HOLLOW_MAW_FC_PROJECT$"
  MMP_THE_HOLLOW_MAW_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_maw_fc_project_desc_end$"
- MMP_THE_HOLLOW_MAW_FC_PROJECT_ROBOT: "$THE_HOLLOW_MAW_FC_PROJECT$"
+ MMP_THE_HOLLOW_MAW_FC_PROJECT_ROBOT: "$MMP_THE_HOLLOW_MAW_FC_PROJECT$"
  MMP_THE_HOLLOW_MAW_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_maw_fc_project_desc_end$"
  mmp_maw_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_maw$§!."
  
  MMP_THE_SILENT_RENEGADE_FC_PROJECT: "Commune with the $code_name_mmp_renegade$"
  MMP_THE_SILENT_RENEGADE_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_renegade_fc_project_desc_end$"
- MMP_THE_SILENT_RENEGADE_FC_PROJECT_HIVE: "$THE_SILENT_RENEGADE_FC_PROJECT$"
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT_HIVE: "$MMP_THE_SILENT_RENEGADE_FC_PROJECT$"
  MMP_THE_SILENT_RENEGADE_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_renegade_fc_project_desc_end$"
- MMP_THE_SILENT_RENEGADE_FC_PROJECT_ROBOT: "$THE_SILENT_RENEGADE_FC_PROJECT$"
+ MMP_THE_SILENT_RENEGADE_FC_PROJECT_ROBOT: "$MMP_THE_SILENT_RENEGADE_FC_PROJECT$"
  MMP_THE_SILENT_RENEGADE_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_renegade_fc_project_desc_end$"
  mmp_renegade_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_renegade$§!."
  
  MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT: "Commune with the $code_name_mmp_flame$"
  MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_flame_fc_project_desc_end$"
- MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_HIVE: "$THE_RAVOUNOUS_FLAME_FC_PROJECT$"
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_HIVE: "$MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT$"
  MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_flame_fc_project_desc_end$"
- MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_ROBOT: "$THE_RAVOUNOUS_FLAME_FC_PROJECT$"
+ MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_ROBOT: "$MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT$"
  MMP_THE_RAVOUNOUS_FLAME_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_flame_fc_project_desc_end$"
  mmp_flame_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_flame$§!."
- 
+
+ #BY MAXIUNDMICKY
+ # The Twinning Songs
+ MMP_THE_TWINNING_SONGS_FC_PROJECT: "Commune with the $code_name_mmp_songs$"
+ MMP_THE_TWINNING_SONGS_FC_PROJECT_DESC:"$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_songs_fc_project_desc_end$"
+ MMP_THE_TWINNING_SONGS_FC_PROJECT_HIVE: "$MMP_THE_TWINNING_SONGS_FC_PROJECT$"
+ MMP_THE_TWINNING_SONGS_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_songs_fc_project_desc_end$"
+ MMP_THE_TWINNING_SONGS_FC_PROJECT_ROBOT: "$MMP_THE_TWINNING_SONGS_FC_PROJECT$"
+ MMP_THE_TWINNING_SONGS_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_songs_fc_project_desc_end$"
+ mmp_songs_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_songs$§!."
+
+
  mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_spireless_tower_accord|0%$§! $MOD_SHIP_WEAPON_RANGE_MULT$"
  mmp_spireless_tower_modifier_tt: "$mod_country_power_projection_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+5%§!"
  
@@ -151,3 +181,9 @@
  mmp_ravounous_flame_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_ravounous_flame_accord|0%$§! $MOD_SHIP_HULL_REGEN_ADD_PERC$"
  mmp_ravounous_flame_modifier_tt: "$mod_planet_jobs_energy_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+10%§!"
  #$@mmp_spireless_tower_telepath_bonus|0%$§!"
+
+ #BY MAXIUNDMICKY
+ # The Twinning Songs
+ mmp_twinning_songs_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_twinning_songs_accord|0%$§! $mod_planet_jobs_worker_produces_mult$ §T&§! §G$@mmp_twinning_songs_accord_2|0$§! $MOD_PLANET_CRIME_ADD$"
+ mmp_twinning_songs_accord_gestalt_tt: "$accord_minor_patron_tt$ §G$@mmp_twinning_songs_accord|0%$§! $mod_planet_jobs_simple_drone_produces_mult$ §T&§! §G$@mmp_twinning_songs_accord_2|0$§! $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$"
+ mmp_twinning_songs_modifier_tt: "$mod_planet_jobs_unity_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G$@mmp_twinning_songs_telepath_bonus|0%$§!"

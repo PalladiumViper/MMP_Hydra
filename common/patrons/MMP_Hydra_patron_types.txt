@@ -221,3 +221,38 @@ mmp_the_ravounous_flame = {
 		}
 	}
 }
+
+## BY MAXIUNDMICKY
+# The twinning songs
+
+mmp_the_twinning_songs = {
+    category = minor_patron
+    color = { 0 0 0 1 }
+    text_color_code = "P"
+    first_contact_event = MMP_patron.50
+
+    pre_communications_name_format = "{$code_name_mmp_songs$}"
+
+    position = { x = 0.7 y = 0.7 }
+
+    passive_accord = {
+        name = mmp_the_twinning_songs
+        hide_desc = yes
+        triggered_modifier = {
+            show_only_custom_tooltip = no
+            custom_tooltip = mmp_twinning_songs_modifier_tt
+            planet_telepaths_sr_zro_produces_add = 0.05
+        }
+        on_unlock = {
+            potential = { is_gestalt = no }
+            custom_tooltip = mmp_twinning_songs_accord_tt
+            set_country_flag = mmp_twinning_songs_accord
+        }
+
+        on_unlock = {
+            potential = { is_gestalt = yes }
+            custom_tooltip = mmp_twinning_songs_accord_gestalt_tt
+            set_country_flag = mmp_twinning_songs_accord
+        }
+    }
+}
