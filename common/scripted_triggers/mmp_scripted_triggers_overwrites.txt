@@ -42,7 +42,22 @@ has_contacted_all_minor_patrons = {
 		PATRON = mmp_the_ravounous_flame
 	}
     #BY MAXIUNDMICKY
+    #The Twinning Songs
     has_contact_with_patron_or_no_relation = {
         PATRON = mmp_the_twinning_songs
+    }
+    #The Tangled Forest
+    has_contact_with_patron_or_no_relation = {
+        PATRON = mmp_the_tangled_forest
+    }
+
+    #The Transference Database
+    has_contact_with_patron_or_no_relation = {
+        PATRON = mmp_the_transference_database
+    }
+
+    #The Looming Melancholy
+    has_contact_with_patron_or_no_relation = {
+        PATRON = mmp_the_looming_melancholy
     }
 }

@@ -244,15 +244,88 @@ mmp_the_twinning_songs = {
             planet_telepaths_sr_zro_produces_add = 0.05
         }
         on_unlock = {
-            potential = { is_gestalt = no }
             custom_tooltip = mmp_twinning_songs_accord_tt
             set_country_flag = mmp_twinning_songs_accord
         }
+    }
+}
 
+# The Tangled Forest
+
+mmp_the_tangled_forest = {
+    category = minor_patron
+    color = { 0 0 0 1 }
+    text_color_code = "P"
+    first_contact_event = MMP_patron.60
+
+    pre_communications_name_format = "{$code_name_mmp_forest$}"
+
+    position = { x = 0.7 y = -0.7 }
+
+    passive_accord = {
+        name = mmp_the_tangled_forest
+        hide_desc = yes
+        triggered_modifier = {
+            show_only_custom_tooltip = no
+            custom_tooltip = mmp_tangled_forest_modifier_tt
+            planet_telepaths_sr_zro_produces_add = 0.05
+        }
         on_unlock = {
-            potential = { is_gestalt = yes }
-            custom_tooltip = mmp_twinning_songs_accord_gestalt_tt
-            set_country_flag = mmp_twinning_songs_accord
+            custom_tooltip = mmp_tangled_forest_accord_tt
+            set_country_flag = mmp_tangled_forest_accord
+        }
+    }
+}
+
+# The Transference Database
+mmp_the_transference_database = {
+    category = minor_patron
+    color = { 0 0 0 1 }
+    text_color_code = "P"
+    first_contact_event = MMP_patron.70
+
+    pre_communications_name_format = "{$code_name_mmp_database$}"
+
+    position = { x = -0.7 y = 0.7 }
+
+    passive_accord = {
+        name = mmp_the_transference_database
+        hide_desc = yes
+        triggered_modifier = {
+            show_only_custom_tooltip = no
+            custom_tooltip = mmp_transference_database_modifier_tt
+            planet_telepaths_sr_zro_produces_add = 0.05
+        }
+        on_unlock = {
+            custom_tooltip = mmp_transference_database_accord_tt
+            set_country_flag = mmp_transference_database_accord
+        }
+    }
+}
+
+# The Looming Melancholy
+
+mmp_the_looming_melancholy = {
+    category = minor_patron
+    color = { 0 0 0 1 }
+    text_color_code = "P"
+    first_contact_event = MMP_patron.80
+
+    pre_communications_name_format = "{$code_name_mmp_melancholy$}"
+
+    position = { x = -0.7 y = -0.7 }
+
+    passive_accord = {
+        name = mmp_the_looming_melancholy
+        hide_desc = yes
+        triggered_modifier = {
+            show_only_custom_tooltip = no
+            custom_tooltip = mmp_looming_melancholy_modifier_tt
+            planet_telepaths_sr_zro_produces_add = 0.05
+        }
+        on_unlock = {
+            custom_tooltip = mmp_looming_melancholy_accord_tt
+            set_country_flag = mmp_looming_melancholy_accord
         }
     }
 }

@@ -59,4 +59,19 @@ num_minor_patron_relations = {
         add = 1
         has_patron_relation = { patron = mmp_the_twinning_songs }
     }
+
+    modifier = {
+        add = 1
+        has_patron_relation = { patron = mmp_the_tangled_forest}
+    }
+
+    modifier = {
+        add = 1
+        has_patron_relation = { patron = mmp_the_transference_database }
+    }
+
+    modifier = {
+        add = 1
+        has_patron_relation = { patron = mmp_the_looming_melancholy }
+    }
 }

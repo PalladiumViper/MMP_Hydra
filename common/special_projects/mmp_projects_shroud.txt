@@ -111,7 +111,7 @@ special_project = {
 }
 
 #BY MAXIUNDMICKY
-
+#The Twinning Songs
 special_project = {
     inline_script = {
         script = shroud/patron_first_contact_special_project
@@ -136,5 +136,89 @@ special_project = {
         PICTURE = GFX_evt_machine_sapience
         KEY = "MMP_THE_TWINNING_SONGS_FC_PROJECT_ROBOT"
         EVENT_ID = MMP_patron.55
+    }
+}
+
+#The Tangled Forest
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_psionics
+        KEY = "MMP_THE_TANGLED_FOREST_FC_PROJECT"
+        EVENT_ID = MMP_patron.65
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_shroud_psionic_hive_mind
+        KEY = "MMP_THE_TANGLED_FOREST_FC_PROJECT_HIVE"
+        EVENT_ID = MMP_patron.65
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_machine_sapience
+        KEY = "MMP_THE_TANGLED_FOREST_FC_PROJECT_ROBOT"
+        EVENT_ID = MMP_patron.65
+    }
+}
+
+#The Transference Database
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_psionics
+        KEY = "MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT"
+        EVENT_ID = MMP_patron.75
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_shroud_psionic_hive_mind
+        KEY = "MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE"
+        EVENT_ID = MMP_patron.75
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_machine_sapience
+        KEY = "MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT"
+        EVENT_ID = MMP_patron.75
+    }
+}
+
+#The Looming Melancholy
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_psionics
+        KEY = "MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT"
+        EVENT_ID = MMP_patron.85
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_shroud_psionic_hive_mind
+        KEY = "MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE"
+        EVENT_ID = MMP_patron.85
+    }
+}
+
+special_project = {
+    inline_script = {
+        script = shroud/patron_first_contact_special_project
+        PICTURE = GFX_evt_machine_sapience
+        KEY = "MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT"
+        EVENT_ID = MMP_patron.85
     }
 }

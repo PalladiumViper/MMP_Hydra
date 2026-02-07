@@ -194,6 +194,7 @@ shroud_touched_patron_first_contact = {
 			country_event = { id = MMP_patron.40 }
 		}
         #BY MAXIUNDMICKY
+        #The Twinning Songs
         1 = {
             modifier = {
                 factor = 0
@@ -205,6 +206,45 @@ shroud_touched_patron_first_contact = {
                 }
             }
             country_event = { id = MMP_patron.50 }
+        }
+        #The Tangled Forest
+        1 = {
+            modifier = {
+                factor = 0
+                OR = {
+                    has_contact_with_patron_or_no_relation = {
+                        PATRON = mmp_the_tangled_forest
+                    }
+                    has_contacted_all_major_patrons = no
+                }
+            }
+            country_event = { id = MMP_patron.60 }
+        }
+        #The Transference Database
+        1 = {
+            modifier = {
+                factor = 0
+                OR = {
+                    has_contact_with_patron_or_no_relation = {
+                        PATRON = mmp_the_transference_database
+                    }
+                    has_contacted_all_major_patrons = no
+                }
+            }
+            country_event = { id = MMP_patron.70 }
+        }
+        #The Looming Melancholy
+        1 = {
+            modifier = {
+                factor = 0
+                OR = {
+                    has_contact_with_patron_or_no_relation = {
+                        PATRON = mmp_the_looming_melancholy
+                    }
+                    has_contacted_all_major_patrons = no
+                }
+            }
+            country_event = { id = MMP_patron.80 }
         }
 	}
 }

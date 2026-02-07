@@ -103,7 +103,7 @@ owner_planet_modifier = {
 	}
 	modifier = {
 		planet_jobs_worker_produces_mult = @throne_shadow_accord
-		planet_jobs_slave_produces_mult = @throne_shadow_accord
+		pop_slave_bonus_workforce_mult = @throne_shadow_accord #Fixed vanilla oversight - MaxiundMicky
 	}
 }
 owner_planet_modifier = {
@@ -166,6 +166,7 @@ owner_fleet_modifier = {
 }
 
 # By MaxiundMicky
+# The Twinning Songs
 owner_planet_modifier = {
     potential = {
         from = { has_country_flag = mmp_twinning_songs_accord }
@@ -183,7 +184,39 @@ owner_planet_modifier = {
         is_gestalt = yes
     }
     modifier = {
-        planet_jobs_simple_drones_produces_mult = @mmp_twinning_songs_accord
+        planet_jobs_simple_drone_produces_mult = @mmp_twinning_songs_accord
         planet_crime_no_happiness_add = @mmp_twinning_songs_accord_2
+    }
+}
+
+# The Tangled Forest
+owner_planet_modifier = {
+    potential = {
+        from = { has_country_flag = mmp_tangled_forest_accord}
+    }
+    modifier = {
+        planet_non_artificial_max_districts_add = @mmp_tangled_forest_accord
+    }
+}
+
+# The Transference Database
+owner_planet_modifier = {
+    potential = {
+        from = { has_country_flag = mmp_transference_database_accord}
+    }
+    modifier = {
+        planet_jobs_engineering_research_produces_mult = @mmp_transference_database_accord
+    }
+}
+
+# The Looming Melancholy
+
+owner_planet_modifier = {
+    potential = {
+        from = { has_country_flag = mmp_looming_melancholy_accord}
+    }
+    modifier = {
+        army_morale_damage_taken_mult = @mmp_looming_melancholy_accord_2
+        army_morale_damage_mult = @mmp_looming_melancholy_accord
     }
 }

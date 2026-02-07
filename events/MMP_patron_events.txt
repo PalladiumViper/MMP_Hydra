@@ -177,7 +177,7 @@ country_event = {
 		custom_tooltip = shroud.40040.a.tt
 	}
 }
-
+# BY MAXIUNDMICKY
 # The Twinning Songs - Duality Embodied
 country_event = {
     id = shroud.45045
@@ -210,6 +210,41 @@ country_event = {
     option = {
         name = shroud.45045.a
         custom_tooltip = shroud.45045.a.tt
+    }
+}
+
+# The Tangled Forest - Vegetation Embodied
+country_event = {
+    id = shroud.50050
+    base = shroud.3
+
+    title = shroud.50050.title
+    desc_clear = yes
+    desc = shroud.50050.desc
+
+    trigger = {
+        NOR = {
+            has_country_flag = shroud_50050_happened
+            has_country_flag = forging_our_own_path
+        }
+        has_patron_relation = {
+            patron = mmp_the_tangled_forest
+            contact = completed
+        }
+        OR = {
+            is_in_domain = the_cradle_of_souls
+            is_in_domain = the_composer_of_strands
+        }
+    }
+
+    immediate = {
+        set_country_flag = shroud_50050_happened
+    }
+
+    option_clear = yes
+    option = {
+        name = shroud.50050.a
+        custom_tooltip = shroud.50050.a.tt
     }
 }
 
@@ -289,4 +324,49 @@ inline_script = {
     script = shroud/minor_patron_first_contact_end_event
     EVENT_ID = MMP_patron.55
     PATRON_TYPE = mmp_the_twinning_songs
+}
+
+# The Tangled Forest
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_start_event
+    EVENT_ID = MMP_patron.60
+    SPECIAL_PROJECT_KEY = "MMP_THE_TANGLED_FOREST_FC_PROJECT"
+    PATRON_TYPE = mmp_the_tangled_forest
+}
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_end_event
+    EVENT_ID = MMP_patron.65
+    PATRON_TYPE = mmp_the_tangled_forest
+}
+
+# The Transference Database
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_start_event
+    EVENT_ID = MMP_patron.70
+    SPECIAL_PROJECT_KEY = "MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT"
+    PATRON_TYPE = mmp_the_transference_database
+}
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_end_event
+    EVENT_ID = MMP_patron.75
+    PATRON_TYPE = mmp_the_transference_database
+}
+
+# The Looming Melancholy
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_start_event
+    EVENT_ID = MMP_patron.80
+    SPECIAL_PROJECT_KEY = "MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT"
+    PATRON_TYPE = mmp_the_looming_melancholy
+}
+
+inline_script = {
+    script = shroud/minor_patron_first_contact_end_event
+    EVENT_ID = MMP_patron.85
+    PATRON_TYPE = mmp_the_looming_melancholy
 }

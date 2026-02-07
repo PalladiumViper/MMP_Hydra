@@ -341,11 +341,61 @@ triggered_planet_modifier = {
 }
 
 # By MaxiundMicky
+# The Twinning Songs
 
-triggered_country_modifier = {
+triggered_planet_modifier = {
     potential = {
         exists = owner
         owner = { has_country_flag = mmp_twinning_song_accord}
     }
     planet_jobs_unity_produces_mult = @mmp_twinning_songs_telepath_bonus
+}
+
+# The Tangled Forest
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = { has_country_flag = mmp_tangled_forest_accord}
+    }
+    #maybe busted since Composer shrouded vegetation? Also does it have to be blockers?
+    planet_deposits_unity_produces_mult = @mmp_tangled_forest_telepath_bonus
+}
+
+# The Transference Database
+
+triggered_country_modifier = {
+    potential = {
+        exists = owner
+        owner = { has_country_flag = mmp_transference_database_accord}
+    }
+    country_engineering_tech_research_speed = @mmp_transference_database_telepath_bonus
+}
+
+# The Looming Melancholy
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            AND = {
+                has_country_flag = mmp_looming_melancholy_accord
+                is_gestalt = no
+            }
+        }
+    }
+    planet_civilians_unity_produces_add = @mmp_looming_melancholy_telepath_bonus
+}
+
+triggered_planet_modifier = {
+    potential = {
+        exists = owner
+        owner = {
+            AND = {
+                has_country_flag = mmp_looming_melancholy_accord
+                is_gestalt = yes
+            }
+        }
+    }
+    planet_maintenance_drones_unity_produces_add = @mmp_looming_melancholy_telepath_bonus
 }

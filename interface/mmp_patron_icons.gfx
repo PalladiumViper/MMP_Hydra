@@ -28,4 +28,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/patrons/mmp_the_twinning_songs.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
 	}
+
+    spriteType = {
+        name = "GFX_mmp_the_tangled_forest_icon"
+        texturefile = "gfx/interface/icons/patrons/mmp_the_tangled_forest.dds"
+        effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+    }
+
+    spriteType = {
+        name = "GFX_mmp_the_transference_database_icon"
+        texturefile = "gfx/interface/icons/patrons/mmp_the_transference_database.dds"
+        effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+    }
+
+    spriteType = {
+        name = "GFX_mmp_the_looming_melancholy_icon"
+        texturefile = "gfx/interface/icons/patrons/mmp_the_looming_melancholy.dds"
+        effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+    }
 }

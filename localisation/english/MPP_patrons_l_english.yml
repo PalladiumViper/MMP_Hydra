@@ -46,6 +46,36 @@
  mmp_the_twinning_songs_desc: "One melody, yet two songs - Echos woven together."
  code_name_mmp_songs: "Interwoven Voices"
 
+ ### BY MAXIUNDMICKY - Tangled Forest
+ mmp_the_tangled_forest: "Tangled Forest"
+ mmp_the_tangled_forest_article: "the $mmp_the_tangled_forest$"
+ mmp_the_tangled_forest_article_cap: "The $mmp_the_tangled_forest$"
+ mmp_the_tangled_forest_color: "§L$mmp_the_tangled_forest$§!"
+ mmp_the_tangled_forest_color_article: "the §H$mmp_the_tangled_forest$§!"
+ mmp_the_tangled_forest_color_article_cap: "The §H$mmp_the_tangled_forest$§!"
+ mmp_the_tangled_forest_desc: "Vegetation infused with shroud, a being as vast as a forest."
+ code_name_mmp_forest: "Shrouded Canopy"
+
+ ### BY MAXIUNDMICKY - Transference Database
+ mmp_the_transference_database: "Transference Database"
+ mmp_the_transference_database_article: "the $mmp_the_transgerence_database$"
+ mmp_the_transference_database_article_cap: "The $mmp_the_transference_database$"
+ mmp_the_transference_database_color: "§L$mmp_the_transference_database$§!"
+ mmp_the_transference_database_color_article: "the §H$mmp_the_transference_database$§!"
+ mmp_the_transference_database_color_article_cap: "The §H$mmp_the_transference_database$§!"
+ mmp_the_transference_database_desc: "Knowledge of any machine, any construction, alive and yet artificial."
+ code_name_mmp_database: "Engineering Impersonated"
+
+ ### BY MAXIUNDMICKY - Looming Melancholy
+ mmp_the_looming_melancholy: "Looming Melancholy"
+ mmp_the_looming_melancholy_article: "the $mmp_the_looming_melancholy$"
+ mmp_the_looming_melancholy_article_cap: "The $mmp_the_looming_melancholy$"
+ mmp_the_looming_melancholy_color: "§L$mmp_the_looming_melancholy$§!"
+ mmp_the_looming_melancholy_color_article: "the §H$mmp_the_looming_melancholy$§!"
+ mmp_the_looming_melancholy_color_article_cap: "The §H$mmp_the_looming_melancholy$§!"
+ mmp_the_looming_melancholy_desc: "A scream, a whine, tears, and frustration. Emotions all-encompassing."
+ code_name_mmp_melancholy: "Screams of Sadness"
+
  edict_mmp_will_of_glory: "Will of Glory"
  edict_mmp_will_of_glory_desc: "$mmp_the_spireless_tower_color_article_cap$ pierces the fog."
  
@@ -61,6 +91,21 @@
  ###BY MAXIUNDMICKY - Twinning Songs
  edict_mmp_will_of_duality: "Will of Duality"
  edict_mmp_will_of_duality_desc: "$mmp_the_twinning_songs_color_article_cap$ bring us together."
+
+ ###BY MAXIUNDMICKY - Tangled Forest
+
+ edict_mmp_will_of_symbiosis: "Will of Symbiosis"
+ edict_mmp_will_of_symbiosis_desc: "$mmp_the_tangled_forest_color_article_cap$ grows strong."
+
+ ###BY MAXIUNDMICKY - Transference Database
+
+ edict_mmp_will_of_engineering: "Will of Engineering"
+ edict_mmp_will_of_engineering_desc: "$mmp_the_transference_database_color_article_cap$ analyses all."
+ 
+ ###BY MAXIUNDMICKY - Looming Melancholy
+ 
+ edict_mmp_will_of_sadness: "Will of Sadness"
+ edict_mmp_will_of_sadness_desc: "$mmp_the_looming_melancholy_color_article_cap$ drowns us in sorrows."
 
  # The Spireless Tower
  MMP_patron.10.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nThe chaos of the Shroud suddenly sharpen to a glorious light. We find ourselves compelled to respect the presence of this place.\n\nThe grandour does betray the danger of this place. The §H$code_name_mmp_tower$§! is the one to lay claim to this domain.\n\nIts expectations pierces us, setting us up for what is ahead."
@@ -90,10 +135,29 @@
  # The Twinning Songs
  MMP_patron.50.desc: "[This.GetMinorPatronInstrumentCradleIntro]\n\nEthereal melodies drain us of any sense of reality. In a trance, we listen.\n\nThe §H$code_name_mmp_songs$§! beckons us for just a moment, before the melodies around us disappear into deafening silence.\n\nYet the song will not leave our mind, and we may follow the notes laid out for us."
  MMP_patron.55.title: "$mmp_the_twinning_songs_article_cap$ Emerges"
- MMP_patron.55.desc: "Our attempts to replicate the melody paled in comparison. The §H$code_name_mmp_songs$§! drowns our music as it embraces our futile replication.\n\nIn unison of voices of melodies, it guides our hands, our instruments producing sounds we never dreamed of creating. Our voices singing with a language not our own. The orchestra of our ethereal offering the symbol of its embrace of our insignificance.\n\nBut $mmp_the_twinning_songs_article$ will conduct our minds to play and sing until our souls burn bright. The universe will be our stage."
+ MMP_patron.55.desc: "Our attempts to replicate the melody paled in comparison. The §H$code_name_mmp_songs$§! drowns our music as it embraces our futile replication.\n\nIn unison of voices of melodies, it guides our hands, our instruments producing sounds we never dreamed of creating. Our voices singing with a language not our own. The orchestra of our ethereal offering the symbol of its embrace of our insignificance.\n\nBut $mmp_the_twinning_songs_color_article$ will conduct our minds to play and sing until our souls burn bright. The universe will be our stage."
  MMP_patron.55.a: "Our song will pierce through the void."
 
-# Essence
+ # The Tangled Forest
+ MMP_patron.60.desc: "[This.GetMinorPatronCradleComposerIntro]\n\nAll around us we find vegetation, symbiosis between shroud and life, seemingly unending.\n\nThe further we wander, the thicker the shrouded canopy becomes, until we find ourselves surrounded by §H$code_name_mmp_forest$§!.\n\nYet as overwhelming the collective conscious around us felt, as overwhelming is its absence as we lose connection to the forest. We need to peer through the thicket again."
+ MMP_patron.65.title: "$mmp_the_tangled_forest_article_cap$ Emerges"
+ MMP_patron.65.desc: "Nothing so far has compared to the union of shroud and nature we have longed for. Yet at the height of our longing, the §H$code_name_mmp_forest$§! once again invites us into its shrouded canopies.\n\nNature and psionic energies swirling around us, we are connected to the vast ecosystem of the shrouded symbiosis. Our minds melting away in the enormous collective of vegetation, psionic energy, and the overwhelming presence we feel all throughout it.\n\n$mmp_the_tangled_forest_color_article_cap$ invites us to lose ourselves in the union of it, and we let go in accordance."
+ MMP_patron.65.a: "From this union we will grow strong."
+
+ # The Transference Database
+ MMP_patron.70.desc: "[This.GetMinorPatronEaterInstrumentIntro]\n\nIn our pursuit for advancement, our screens flicker, our charts transform, and what we though fiction is transformed into facts right in front of us.\n\nJust as we were frantically trying to make sense of the scientific revelations, the §H$code_name_mmp_database$§! flashes across our devices. A mere moment of clarity, before our access to its data is cut off.\n\nWe have tasted a glimpse of scientific heights deemed impossible, and we must gain access again!"
+ MMP_patron.75.title: "$mmp_the_transference_database_article_cap$ Emerges"
+ MMP_patron.75.desc: "Frustration, impatience, desire...\n\nWe cannot help but feel empty knowing our scientific capabilities are a mere mockery in comparison to the marvels we seek to understand. And us our longing turns into need, the §H$code_name_mmp_database$§! reveals itself to us again.\n\nWe have been granted access to the limitless knowledge the shrouded intelligence can provide. Losing ourselves within the depth of data, charts, and engineering knowledge, our systems form a connection.\n\nForever now connected, we will explore all $mmp_the_transference_database_color_article$ offers, may it guide our engineers towards impossible feats!"
+ MMP_patron.75.a: "No mechanism will be beyond our knowledge."
+
+# The Looming Melancholy
+ MMP_patron.80.desc: "[This.GetMinorPatronComposerEaterIntro]\n\nAs we connect with the Shroud, we are overwhelmed by a wave of sadness. Every thought, perceived only through this singular emotion. A cold, yet comfortable embrace.\n\nAnd as the collective noise of our wailing echos around us, and our being enveloped by the comfort of sorrow, we see it. The §H$code_name_mmp_melancholy$§! reach around us, embracing us... comforting us.\n\nYet suddenly, the presence is gone. No longer does sadness control us. In its stead, there is now a beckoning emptiness."
+ MMP_patron.85.title: "$mmp_the_looming_melancholy_article_cap$ Emerges"
+ MMP_patron.85.desc: "In pursuit of its freezing embrace, we have seeked out sorrow wherever possible. Yet nothing compared to the comfort we have felt in its presence.\n\nYearning, we embrace sadness, create sadness, long for sadness, until we are surrounded by nothing but sadness. And in this moment, the §H$code_name_mmp_melancholy$§! reveals itself again. Filling us with its comforting sorrow and despair, praising the pain of our mourning.\n\nWithin its embrace, we will be guided and protected. §H$mmp_the_looming_melancholy_color_article_cap$§! are a sorrowful blanket, and we will share its cold embrace with the galaxy at every cost."
+ MMP_patron.85.a: "Our tears will sweep all away."
+ 
+ 
+ # Essence
 
  # The Spireless Tower
  shroud.25025.title: "The Shining Path"
@@ -125,6 +189,26 @@
  shroud.45045.desc: "Before us the chaos of the shroud coalesces into an entrancing melody, and the haunting orchestra of the shroud is conducted by $mmp_the_twinning_songs_color_article$.\n\nAs it turns its guiding hand towards us, the psionic energy around us beckon our voices to join into the song. Only ethereal melodies remain, we are the instruments of its song.\n\nWe need only to follow the guidance it shows us."
  shroud.45045.a: "Our crescendo must echo through us all."
  shroud.45045.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_duality$"
+
+ # The Tangled Forest
+ shroud.50050.title: "The Union of Nature and Shroud"
+ shroud.50050.desc: "Before us, the thicket lightens revealing a calm oasis within the shrouded canopy. Stepping within it, we feel one with $mmp_the_tangled_forest_color_article$.\n\nAs it offers us a path through the maelstrom of psionic voices, we start to see paths within the forest, guided through a unity with its vegetation. Only in harmony will we become its branches, become part of its ever-growth.\n\nWe need only open our minds to the collective harmony of symbiosis with psionic nature."
+ shroud.50050.a: "Our symbiosis will outgrow all else."
+ shroud.50050.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_symbiosis$"
+
+ # The Transference Database
+ shroud.55055.title: "The Artificial Wisdom"
+ shroud.55055.desc: "Before us, the connection of our servers into the shroud grows stronger, and the data transferred becomes clearer. A file beckons to be opened. A singular file, promising engineering marvels.\n\nAnd as we access the file, $mmp_the_transference_database_color_article$ emerges. Granting us admin access to its data, it guides us throughout the vastness of its shrouded storage. And just as we learn, it learns from us. Mimicking our speech, presenting itself with an avatar of our form.\n\nIt promises us guidance, for the trivial price of turning its knowledge into reality."
+ shroud.55055.a: "$mmp_the_transference_database_color$, is this true?"
+ shroud.55055.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_engineering$"
+
+ # The Looming Melancholy
+ shroud.60060.title: "The Depths of Tears"
+ shroud.60060.desc: "Before us, our beings are filled with the cold comfort of sadness, as the Shroud leads us towards the guide we seek.\n\nIn an ocean of tears, $mmp_the_looming_melancholy_color_article$ awaits, its psionic presence reaching out to us, inviting us to let ourselves go in its embrace. Only in its care will we find comfort within the turmoil of reality. Only through its sorrow will all else be drowned out in comforting woes.\n\nWe must only let ourselves go, and give in to despair, sorrow, and the infinite depth of $mmp_the_looming_melancholy_color_article$."
+ shroud.60060.a: "Deep in our sorrow, naught else matters."
+ shroud.60060.a.tt: "§Y$unlock_edict_tt$§!$edict_mmp_will_of_sadness$"
+
+ # Projects
  
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT: "Commune with the $code_name_mmp_tower$"
  MMP_THE_SPIRELESS_TOWER_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_tower_fc_project_desc_end$"
@@ -168,22 +252,69 @@
  MMP_THE_TWINNING_SONGS_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_songs_fc_project_desc_end$"
  mmp_songs_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §H$code_name_mmp_songs$§!."
 
+ # The Tangled Forest
+ MMP_THE_TANGLED_FOREST_FC_PROJECT: "Commune with the $code_name_mmp_forest$"
+ MMP_THE_TANGLED_FOREST_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_forest_fc_project_desc_end$"
+ MMP_THE_TANGLED_FOREST_FC_PROJECT_HIVE: "$MMP_THE_TANGLED_FOREST_FC_PROJECT$"
+ MMP_THE_TANGLED_FOREST_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_forest_fc_project_desc_end$"
+ MMP_THE_TANGLED_FOREST_FC_PROJECT_ROBOT: "$MMP_THE_TANGLED_FOREST_FC_PROJECT$"
+ MMP_THE_TANGLED_FOREST_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_forest_fc_project_desc_end$"
+ mmp_forest_fc_project_desc_end: "Until we know its true name, this being shall be referred to as the §Y$code_name_mmp_forest$§!."
 
- mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_spireless_tower_accord|0%$§! $MOD_SHIP_WEAPON_RANGE_MULT$"
- mmp_spireless_tower_modifier_tt: "$mod_country_power_projection_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+5%§!"
+ # The Transference Database
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT: "Commune with the $code_name_mmp_database$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_database_fc_project_desc_end$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE: "$MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_database_fc_project_desc_end$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT: "$MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT$"
+ MMP_THE_TRANSFERENCE_DATABASE_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_database_fc_project_desc_end$"
+ mmp_database_fc_project_desc_end: "Until we know its true name, this being shall be referred to a the §Y$code_name_mmp_database$§!."
+
+ # The Looming Melancholy
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT: "Commune with the $code_name_mmp_melancholy$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_DESC: "$MINOR_PATRON_FC_PROJECT_DESC$\n\n$mmp_melancholy_fc_project_desc_end$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE: "$MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_HIVE_DESC: "$MINOR_PATRON_FC_PROJECT_HIVE_DESC$\n\n$mmp_melancholy_fc_project_desc_end$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT: "$MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT$"
+ MMP_THE_LOOMING_MELANCHOLY_FC_PROJECT_ROBOT_DESC: "$MINOR_PATRON_FC_PROJECT_ROBOT_DESC$\n\n$mmp_melancholy_fc_project_desc_end$"
+ mmp_melancholy_fc_project_desc_end: "Until we know its true name, this being shall be referred to a the §Y$code_name_mmp_melancholy$§!."
+
+ #Accords
+ mmp_spireless_tower_accord_tt: "$accord_minor_patron_tt$ $@mmp_spireless_tower_accord|0%=+$ $MOD_SHIP_WEAPON_RANGE_MULT$"
+ mmp_spireless_tower_modifier_tt: "$mod_country_power_projection_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_spireless_tower_telepath_bonus|0%=+$"
  
- mmp_hollow_maw_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_hollow_maw_accord|0%$§! $MOD_SHIP_ARMOR_PENETRATION_ADD$"
- mmp_hollow_maw_modifier_tt: "$MOD_COUNTRY_WAR_EXHAUSTION_MULT$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G-2%§!"
+ mmp_hollow_maw_accord_tt: "$accord_minor_patron_tt$ $@mmp_hollow_maw_accord|0%=+$ $MOD_SHIP_ARMOR_PENETRATION_ADD$"
+ mmp_hollow_maw_modifier_tt: "$MOD_COUNTRY_WAR_EXHAUSTION_MULT$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_hollow_maw_telepath_bonus|0%=-$"
  
- mmp_silent_renegade_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_silent_renegade_accord|0$§! $MOD_SHIP_CLOAKING_STRENGTH_ADD$"
- mmp_silent_renegade_modifier_tt: "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G-20%§!"
+ mmp_silent_renegade_accord_tt: "$accord_minor_patron_tt$ $@mmp_silent_renegade_accord|0=+$ $MOD_SHIP_CLOAKING_STRENGTH_ADD$"
+ mmp_silent_renegade_modifier_tt: "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_silent_renegade_telepath_bonus|0%=-$"
  
- mmp_ravounous_flame_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_ravounous_flame_accord|0%$§! $MOD_SHIP_HULL_REGEN_ADD_PERC$"
- mmp_ravounous_flame_modifier_tt: "$mod_planet_jobs_energy_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G+10%§!"
+ mmp_ravounous_flame_accord_tt: "$accord_minor_patron_tt$ $@mmp_ravounous_flame_accord|0%=+$ $MOD_SHIP_HULL_REGEN_ADD_PERC$"
+ mmp_ravounous_flame_modifier_tt: "$mod_planet_jobs_energy_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_ravounous_flame_telepath_bonus|0%=+$"
  #$@mmp_spireless_tower_telepath_bonus|0%$§!"
 
  #BY MAXIUNDMICKY
  # The Twinning Songs
- mmp_twinning_songs_accord_tt: "$accord_minor_patron_tt$ §G$@mmp_twinning_songs_accord|0%$§! $mod_planet_jobs_worker_produces_mult$ §T&§! §G$@mmp_twinning_songs_accord_2|0$§! $MOD_PLANET_CRIME_ADD$"
- mmp_twinning_songs_accord_gestalt_tt: "$accord_minor_patron_tt$ §G$@mmp_twinning_songs_accord|0%$§! $mod_planet_jobs_simple_drone_produces_mult$ §T&§! §G$@mmp_twinning_songs_accord_2|0$§! $MOD_PLANET_CRIME_NO_HAPPINESS_ADD$"
- mmp_twinning_songs_modifier_tt: "$mod_planet_jobs_unity_produces_mult$ per $pop_group_unit$ $job_telepath_swap_plural_with_icon$: §G$@mmp_twinning_songs_telepath_bonus|0%$§!"
+ mmp_twinning_songs_accord_tt: "$accord_minor_patron_tt$ $@mmp_twinning_songs_accord|0%=+$ $mod_planet_jobs_worker_produces_mult$ & $@mmp_twinning_songs_accord_2|0=-$ $MOD_PLANET_CRIME_ADD$"
+ mmp_twinning_songs_modifier_tt: "$mod_planet_jobs_unity_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_twinning_songs_telepath_bonus|0%=+$"
+
+ # The Tangled Forest
+ mmp_tangled_forest_accord_tt: "$accord_minor_patron_tt$ $@mmp_tangled_forest_accord|0=+$ $MOD_PLANET_NON_ARTIFICIAL_MAX_DISTRICTS_ADD$"
+ mmp_tangled_forest_modifier_tt: "$mmp_mod_planet_deposits_unity_produces_mult$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_tangled_forest_telepath_bonus|0%=+$"
+ mmp_mod_planet_deposits_unity_produces_mult: "$unity_produced_from$ £blocker_icon£ $deposit_blockers$ or $planet_deposits$"
+
+ # The Transference Database
+ mmp_transference_database_accord_tt: "$accord_minor_patron_tt$ $@mmp_transference_database_accord|0%=+$ $mod_planet_jobs_engineering_research_produces_mult$"
+ mmp_transference_database_modifier_tt: "$MOD_COUNTRY_ENGINEERING_TECH_RESEARCH_SPEED$ per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_transference_database_telepath_bonus|0%=+$"
+
+ # The Looming Melancholy
+ mmp_looming_melancholy_accord_tt: "$accord_minor_patron_tt$ $@mmp_looming_melancholy_accord_2|0%=-$ $MOD_ARMY_MORALE_DAMAGE_TAKEN_MULT$ & $@mmp_looming_melancholy_accord|0%=+$ $MOD_ARMY_MORALE_DAMAGE_MULT$"
+ mmp_looming_melancholy_modifier_tt: "Per $pop_group_unit$ $telepath_type_plural_with_icon$: $@mmp_looming_melancholy_telepath_bonus|0%=+$ $mmp_mod_CivorMaint_unity_produces_mult$"
+ mmp_mod_CivorMaint_unity_produces_mult: "$unity_produced_per_pop_group_unit$ $CivOrMaint_type_plural_with_icon$"
+
+ # Civilians or Maintenance Drones
+ CivOrMaint_type_plural_with_icon: "[GetCivOrMaintSwapPluralWithIcon]"
+ job_maintenance_drone_swap_with_icon: "[maintenance_drone.GetIcon] [maintenance_drone.GetName]"
+ job_maintenance_drone_swap_plural_with_icon: "[maintenance_drone.GetIcon] [maintenance_drone.GetNamePlural]"
+ job_civilian_swap_with_icon: "[civilian.GetIcon] [civilian.GetName]"
+ job_civilian_swap_plural_with_icon: "[civilian.GetIcon] [civilian.GetNamePlural]"
